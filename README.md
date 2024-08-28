@@ -10,7 +10,7 @@
    > choco --version
 
 ・volta インストール（Node.jsのバージョン切替ツール）
-  公式サイト(  )からmsiインストーラをダウンロード
+  公式サイト( https://docs.volta.sh/guide/getting-started )からmsiインストーラをダウンロード
   （インストール後の確認）  
   > volta --version
 
