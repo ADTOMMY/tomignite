@@ -3,10 +3,12 @@
 追加実装は下記ツールを用いて実施する。
 ・Chocolatey
 
+・Chocolatey (インストール)[https://chocolatey.org/install]
+
   chocoコマンドを有効化し、Windowsアプリを安全にダウンロードする。（インストール後の確認） 
    > choco --version
 
-・volta（Node.jsのバージョン切替ツール）
+・volta インストール（Node.jsのバージョン切替ツール）
   公式サイトからmsiインストーラをダウンロード
   （インストール後の確認）  
   > volta --version
