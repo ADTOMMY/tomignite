@@ -6,8 +6,7 @@
 ・Chocolatey インストール( https://chocolatey.org/install )
 
   Individual（個人）を選択（デフォルト）して管理者権限でPowerShellを起動、「Now run the following command:」の下に書いてあるコマンドをコピー。
-
-  chocoコマンドを有効化し、Windowsアプリを安全にダウンロードする。（インストール後の確認） 
+  chocoコマンドを有効化することで、Windowsアプリを安全にダウンロードできる。（インストール後の確認） 
    > choco --version
 
 ・volta インストール（Node.jsのバージョン切替ツール）
