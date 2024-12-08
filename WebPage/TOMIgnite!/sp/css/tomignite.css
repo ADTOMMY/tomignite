@@ -229,13 +229,21 @@ h2 div{
 div.about{
   	margin: 40px 10% 0 ;
 }
-div#body-bk div.aboutContents{
+
+div#body-bk div.aboutContents{ 
   	font-size: 23px;
   	font-family:"游明朝","serif";
 	color: rgba(0,0,0,0.75);
   	padding: 3vh 0 1vh;
   	border-bottom: 3px solid rgba(0,0,0,0.75);
 }
+div#body-bk div.aboutContentsLineLess{
+	font-size: 23px;
+	font-family:"游明朝","serif";
+  color: rgba(0,0,0,0.75);
+	padding: 3vh 0 1vh;
+}
+
 div#body-bk p.aboutContents{
   	line-height:30px;
   	padding: 3vh 2% 3vh;
@@ -267,7 +275,8 @@ h3
 
 
 }
-h3.item{
+h3
+.item{
     background: #444;
     color: #fff;
     padding: 5px;
@@ -278,7 +287,8 @@ h3 a{
     font-size: 6px;
 }
 
-footer.container{
+footer
+.container{
     padding: 3px;
     font-family:"游明朝","serif";
     color: #ffffff;
