@@ -79,7 +79,7 @@
 
 .slick-prev
 {
-    left: 20px;/*左矢印を端から50px離す*/
+    left: 20px; /*左矢印を端から50px離す*/
     z-index: 100;
 }
 [dir='rtl'] .slick-prev
@@ -117,7 +117,7 @@
 /* Dots */
 .slick-dotted.slick-slider
 {
-    margin: 0 auto;　/*ドットが領域に対してセンター*/
+    margin: 0 auto;  /*ドットが領域に対してセンター*/
 }
 
 .slick-dots
