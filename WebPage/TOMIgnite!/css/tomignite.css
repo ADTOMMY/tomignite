@@ -139,7 +139,7 @@ div#header {
 div#footer-fixed /*領域のみ*/
 {
     position: fixed;     /* フッターの固定 */
-    bottom: 0px;    　   /* 位置(下0px) */
+    bottom: 0px;         /* 位置(下0px) */
     left: 0px;           /* 位置(左0px) */
     width: 100%;         /* 横幅100%　*/
     height: 30px;       /* 縦幅140px */

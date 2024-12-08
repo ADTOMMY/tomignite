@@ -108,7 +108,7 @@ input, select {
 
 
 body{
-  width: 100%; height: 100%;
+  	width: 100%; height: 100%;
 }
 
 /* ヘッダーの固定 */
@@ -130,17 +130,16 @@ div#header-bk {
 }
 
 div#header {
-  height: 100%;/* 縦の表示領域はheader-bkと同じ */
-  width: 100%;         /* 横の幅970px */
-  margin: auto;              /* 中央揃え */
-
+	height: 100%;/* 縦の表示領域はheader-bkと同じ */
+  	width: 100%;         /* 横の幅970px */
+  	margin: auto;              /* 中央揃え */
 }
 
 /* フッターの固定 */
 div#footer-fixed /*領域のみ*/
 {
     position: fixed;     /* フッターの固定 */
-    bottom: 0px;    　   /* 位置(下0px) */
+    bottom: 0px;         /* 位置(下0px) */
     left: 0px;           /* 位置(左0px) */
     width: 100%;         /* 横幅100%　*/
     height: 30px;       /* 縦幅140px */
@@ -148,8 +147,7 @@ div#footer-fixed /*領域のみ*/
 
 div#footer-bk
 {
-  background-color:rgba(0,0,0,0.8); /* 背景色(黒) */
-
+	background-color:rgba(0,0,0,0.8); /* 背景色(黒) */
 	height:30px;              /* 縦の高さ140px */
 	width:100%;                /* 横の幅を100% */
 }
@@ -162,56 +160,55 @@ div#footer {
 
 /* ボディの定義 */
 div#body-bk{
-  padding: 70px 0 60px 0;    /* 上200px下110px余白を取る */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
+  	padding: 70px 0 60px 0;    /* 上200px下110px余白を取る */
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
 }
 /*idが優先される*/
 div.aboutBackground{
-  background-image: url('../images/backColor.png');
-  background-color: rgba(255,255,255,0.7);
-  background-blend-mode: lighten;
-  background-size: 40%;
+  	background-image: url('../images/backColor.png');
+  	background-color: rgba(255,255,255,0.7);
+  	background-blend-mode: lighten;
+  	background-size: 40%;
 }
 
 .subNavi{
-  height:39.25px;
-  font-size: 4vh;
-  color: #ffffff;
-  font-family:"游明朝","serif";
+  	height:39.25px;
+  	font-size: 4vh;
+  	color: #ffffff;
+  	font-family:"游明朝","serif";
 }
 
 nav ul {
-  list-style: none;
-  padding-top : 7px;
-  margin: 0 auto;
-  max-width: 400px;
+  	list-style: none;
+  	padding-top : 7px;
+  	margin: 0 auto;
+  	max-width: 400px;
 }
 nav li {
-  box-sizing: border-box;
-  float: left;
-  width: 25%;
+  	box-sizing: border-box;
+  	float: left;
+  	width: 25%;
 }
 nav li a{
-
-  display:block;
-  width: 100%;
-  text-decoration:none;
-  text-align: center;
-  font-family:"游明朝","serif";
-  color: #ffffff;
-  font-size: 10px;
+  	display:block;
+  	width: 100%;
+  	text-decoration:none;
+  	text-align: center;
+  	font-family:"游明朝","serif";
+  	color: #ffffff;
+  	font-size: 10px;
 }
 
 nav a:hover{
-  color: #ffffff;
-  opacity: 0.5;
+  	color: #ffffff;
+  	opacity: 0.5;
 }
 
 h1.slider{
-  width:100%;
-  padding: 0;
+  	width:100%;
+  	padding: 0;
 }
 
 h2 {
@@ -219,29 +216,29 @@ h2 {
     margin: 20px 5% 0 ;  /*h2全体の幅調整、下線のため*/
   }
 h2 p{
-  font-size: 20px;
-  font-family:"游明朝","serif";
-　color: rgba(0,0,0,0.75);
+  	font-size: 20px;
+  	font-family:"游明朝","serif";
+	color: rgba(0,0,0,0.75);
 
-  padding: 6px; /*テキストと下線の間隔*/
-  border-bottom: 2px solid rgba(0,0,0,0.75);
+  	padding: 6px; /*テキストと下線の間隔*/
+  	border-bottom: 2px solid rgba(0,0,0,0.75);
 }
 h2 div{
     margin: 1vh 5% 1vh;  /*ハイライトの余白*/
 }
 div.about{
-  margin: 40px 10% 0 ;
+  	margin: 40px 10% 0 ;
 }
 div#body-bk div.aboutContents{
-  font-size: 40px;
-  font-family:"游明朝","serif";
-　color: rgba(0,0,0,0.75);
-  padding: 3vh 0 1vh;
-  border-bottom: 3px solid rgba(0,0,0,0.75);
+  	font-size: 25px;
+  	font-family:"游明朝","serif";
+	color: rgba(0,0,0,0.75);
+  	padding: 3vh 0 1vh;
+  	border-bottom: 3px solid rgba(0,0,0,0.75);
 }
 div#body-bk p.aboutContents{
-  line-height:30px;
-  padding: 3vh 5% 3vh;
+  	line-height:30px;
+  	padding: 3vh 2% 3vh;
 }
 h3 {
     border-bottom: 2px  solid rgba(0,0,0,0.75);
@@ -249,45 +246,43 @@ h3 {
     padding-bottom: 1.5vh;
   }
 h3 p{
-  font-size: 20px;
-  font-family:"游明朝","serif";
-　color: rgba(0,0,0,0.75);
-  padding: 6px;
-  margin-bottom: 1.5vh;
-  border-bottom: 2px solid rgba(0,0,0,0.75);
+  	font-size: 20px;
+  	font-family:"游明朝","serif";
+	color: rgba(0,0,0,0.75);
+  	padding: 6px;
+  	margin-bottom: 1.5vh;
+  	border-bottom: 2px solid rgba(0,0,0,0.75);
 }
 
 
 h3
 .container {
-  margin: 0 5% 0;
-  display: flex;
+  	margin: 0 5% 0;
+  	display: flex;
     justify-content: center;
 
-  display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      gap:7px;
+  	display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:7px;
 
 
-    }
-    h3
-    .item{
-      background: #444;
-      color: #fff;
-      padding: 5px;
-    }
+}
+h3.item{
+    background: #444;
+    color: #fff;
+    padding: 5px;
+}
 
-  h3 a{
+h3 a{
     color:#ffffff;
     font-size: 6px;
-  }
+}
 
-    footer
-    .container{
-      padding: 3px;
-      font-family:"游明朝","serif";
-      color: #ffffff;
-    }
-    footer a{
+footer.container{
+    padding: 3px;
+    font-family:"游明朝","serif";
+    color: #ffffff;
+}
+footer a{
     color: #3aacad;
-    }
+}
