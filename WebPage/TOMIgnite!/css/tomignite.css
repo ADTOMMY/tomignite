@@ -157,7 +157,7 @@ div#footer {
 	margin: auto;     /* 中央揃え */
 }
 
-/* メインボディ定義 */
+/* ボディ定義 */
 div#body-bk{
   	padding: 130px 0 60px 0;    /* 上200px下110px余白を取る */
   	background-attachment: fixed;
