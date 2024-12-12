@@ -166,7 +166,7 @@ div#body-bk{
 }
 /*idが優先される*/
 div.aboutBackground{
-  	background-image: url('../images/backColor.png');
+  	background-image: url('../../images/backColor.png');
   	background-color: rgba(255,255,255,0.7);
   	background-blend-mode: lighten;
   	background-size: 25%;
@@ -220,7 +220,7 @@ h2 p{
   	font-family:"游明朝","serif";
 	color: rgba(0,0,0,0.75);
   	padding: 6px; /*テキストと下線の間隔*/
-  	border-bottom: 3px solid rgba(0,0,0,0.75);
+  	border-bottom: 1px solid rgba(0,0,0,0.75);
 }
 h2 div{
     margin: 2vh 5% 2vh;  /*ハイライトの余白*/
@@ -233,10 +233,10 @@ div#body-bk div.aboutContents{
   	font-family:"游明朝","serif";
 	color: rgba(0,0,0,0.75);
   	padding: 3vh 0 1vh;
-  	border-bottom: 3px solid rgba(0,0,0,0.75);
+  	border-bottom: 1px solid rgba(0,0,0,0.75);
 }
 div#body-bk div.aboutContentsLineLess{
-	font-size: 40px;
+	font-size: 30px;
 	font-family:"游明朝","serif";
   color: rgba(0,0,0,0.75);
 	padding: 3vh 0 1vh;
