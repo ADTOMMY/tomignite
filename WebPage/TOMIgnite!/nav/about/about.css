@@ -1,0 +1,290 @@
+@charset "UTF-8";
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/*html5doctor---------------------------------------------------------*/
+
+
+
+body{
+  width: 100%; height: 100%;
+}
+
+/* ヘッダーの固定 */
+div#header-fixed
+{
+    position: fixed;      /* ヘッダーの固定 */
+    top: 0px;             /* 位置(上0px) */
+    left: 0px;            /* 位置(右0px) */
+    width: 100%;          /* 横幅100%　*/
+    height: 110px;        /* 縦幅140px */
+    z-index:1000;         /* レイヤー高さ1000の位置 */
+}
+
+div#header-bk {
+	background-color:rgba(0,0,0,0.8);     /* 背景色(黒) */
+	padding: 10px 0 0px;       /* 上30px、下0左右０ */
+	height:110px;              /* 黒背景縦の高さ110px */
+	width:100%;                /* 横の幅を100% */
+}
+
+div#header {
+  	height: 100%;/* 縦の表示領域はheader-bkと同じ */
+  	width: 100%;         /* 横の幅970px */
+  	margin: auto;              /* 中央揃え */
+}
+
+/* フッターの固定 */
+div#footer-fixed /*領域のみ*/
+{
+    position: fixed;     /* フッターの固定 */
+    bottom: 0px;         /* 位置(下0px) */
+    left: 0px;           /* 位置(左0px) */
+    width: 100%;         /* 横幅100%　*/
+    height: 30px;       /* 縦幅140px */
+}
+
+div#footer-bk
+{
+	background-color:rgba(0,0,0,0.8); /* 背景色(黒) */
+	height:30px;              /* 縦の高さ140px */
+	width:100%;                /* 横の幅を100% */
+}
+
+div#footer {
+	height: 100%;/* 縦の表示領域はheader-bkと同じ */
+	width: 100%;     /* 横の幅970px */
+	margin: auto;     /* 中央揃え */
+}
+
+/* ボディ定義 */
+div#body-bk{
+  	padding: 130px 0 60px 0;    /* 上200px下110px余白を取る */
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+}
+/*idが優先される*/
+div.aboutBackground{
+  	background-image: url('../../images/backColor.png');
+  	background-color: rgba(255,255,255,0.7);
+  	background-blend-mode: lighten;
+  	background-size: 25%;
+}
+
+.subNavi{
+  	font-size:50px;
+  	color: #ffffff;
+  	font-family:"游明朝","serif";
+  	padding-top: 10px;
+  	padding-bottom: 10px;
+}
+
+nav ul {
+  	list-style: none;
+  	padding-top : 7px;
+  	margin: 0 auto;
+  	max-width: 800px;
+}
+nav li {
+  	box-sizing: border-box;
+  	float: left;
+  	width: 25%;
+}
+nav li a{
+  display:block;
+  width: 100%;
+  text-decoration:none;
+  text-align: center;
+  font-family:"游明朝","serif";
+  color: #ffffff;
+  font-size: 18px;
+}
+
+nav a:hover{
+  	color: #ffffff;
+  	opacity: 0.5;
+}
+
+h1.slider{
+  	width:100%;
+  	padding: 0;
+}
+
+h2 {
+    border-bottom: 3px  solid rgba(0,0,0,0.75);
+    margin: 40px 10% 0 ;  /*h2全体の幅調整、下線のため*/
+  }
+h2 p{
+  	font-size: 40px;
+  	font-family:"游明朝","serif";
+	color: rgba(0,0,0,0.75);
+  	padding: 6px; /*テキストと下線の間隔*/
+  	border-bottom: 1px solid rgba(0,0,0,0.75);
+}
+h2 div{
+    margin: 2vh 5% 2vh;  /*ハイライトの余白*/
+}
+div.about{
+  	margin: 40px 10% 0 ;
+}
+div#body-bk div.aboutContents{
+  	font-size: 40px;
+  	font-family:"游明朝","serif";
+	color: rgba(0,0,0,0.75);
+  	padding: 3vh 0 1vh;
+  	border-bottom: 1px solid rgba(0,0,0,0.75);
+}
+div#body-bk div.aboutContentsLineLess{
+	font-size: 30px;
+	font-family:"游明朝","serif";
+  color: rgba(0,0,0,0.75);
+	padding: 3vh 0 1vh;
+}
+div#body-bk p.aboutContents{
+  	line-height:30px;
+  	padding: 3vh 5% 3vh;
+}
+h3 {
+    border-bottom: 3px  solid rgba(0,0,0,0.75);
+    margin: 60px 10% 0px;  /*h2全体の幅調整、下線のため*/
+    padding-bottom: 2.5vh;
+  }
+h3 p{
+  	font-size: 40px;
+  	font-family:"游明朝","serif";
+	color: rgba(0,0,0,0.75);
+  	padding: 6px; /*テキストと下線の間隔*/
+  	margin-bottom: 2.5vh;
+  	border-bottom: 3px solid rgba(0,0,0,0.75);
+}
+
+h3
+.container {
+  	display: flex;
+    justify-content: center;
+  	display: grid;
+    grid-template-columns: 0.23fr 0.23fr 0.23fr 0.23fr;
+    gap:10px;
+}
+h3
+.item{
+    background: #444;
+    color: #fff;
+    padding: 10px;
+}
+
+h3 a{
+    color:#ffffff;
+    font-size: 23px;
+}
+
+footer
+.container{
+    padding: 6px;
+    font-family:"游明朝","serif";
+    color: #ffffff;
+}
+footer a{
+	color: #3aacad;
+}
