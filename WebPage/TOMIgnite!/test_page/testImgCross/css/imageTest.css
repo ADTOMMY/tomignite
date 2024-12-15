@@ -102,13 +102,12 @@ hr {
 input, select {
     vertical-align:middle;
 }
-
 /*html5doctor---------------------------------------------------------*/
 
 
 
 body{
-  	width: 100%; height: 100%;
+  width: 100%; height: 100%;
 }
 
 /* ヘッダーの固定 */
@@ -118,19 +117,19 @@ div#header-fixed
     top: 0px;             /* 位置(上0px) */
     left: 0px;            /* 位置(右0px) */
     width: 100%;          /* 横幅100%　*/
-    height: 110px;        /* 縦幅110px */
+    height: 110px;        /* 縦幅140px */
     z-index:1000;         /* レイヤー高さ1000の位置 */
 }
 
 div#header-bk {
 	background-color:rgba(0,0,0,0.8);     /* 背景色(黒) */
 	padding: 10px 0 0px;       /* 上30px、下0左右０ */
-	height:62px;              /* 黒背景縦の高さ62px */
+	height:110px;              /* 黒背景縦の高さ110px */
 	width:100%;                /* 横の幅を100% */
 }
 
 div#header {
-	height: 100%;/* 縦の表示領域はheader-bkと同じ */
+  	height: 100%;/* 縦の表示領域はheader-bkと同じ */
   	width: 100%;         /* 横の幅970px */
   	margin: auto;              /* 中央揃え */
 }
@@ -142,25 +141,25 @@ div#footer-fixed /*領域のみ*/
     bottom: 0px;         /* 位置(下0px) */
     left: 0px;           /* 位置(左0px) */
     width: 100%;         /* 横幅100%　*/
-    height: 30px;       /* 縦幅30px */
+    height: 30px;       /* 縦幅140px */
 }
 
 div#footer-bk
 {
 	background-color:rgba(0,0,0,0.8); /* 背景色(黒) */
-	height:30px;              /* 縦の高さ30px */
+	height:30px;              /* 縦の高さ140px */
 	width:100%;                /* 横の幅を100% */
 }
 
 div#footer {
 	height: 100%;/* 縦の表示領域はheader-bkと同じ */
-	width: 100%;     /* 横の幅100% */
+	width: 100%;     /* 横の幅970px */
 	margin: auto;     /* 中央揃え */
 }
 
 /* ボディ定義 */
 div#body-bk{
-  	padding: 80px 0 60px 0;    /* 上80px下60px余白を取る */
+  	padding: 130px 0 60px 0;    /* 上200px下110px余白を取る */
   	background-attachment: fixed;
   	background-position: center;
   	background-repeat: no-repeat;
@@ -170,21 +169,22 @@ div.aboutBackground{
   	background-image: url('../images/backColor.png');
   	background-color: rgba(255,255,255,0.7);
   	background-blend-mode: lighten;
-  	background-size: 40%;
+  	background-size: 25%;
 }
 
 .subNavi{
-  	height:39.25px;
-  	font-size: 4vh;
+  	font-size:50px;
   	color: #ffffff;
   	font-family:"游明朝","serif";
+  	padding-top: 10px;
+  	padding-bottom: 10px;
 }
 
 nav ul {
   	list-style: none;
   	padding-top : 7px;
   	margin: 0 auto;
-  	max-width: 400px;
+  	max-width: 800px;
 }
 nav li {
   	box-sizing: border-box;
@@ -192,13 +192,13 @@ nav li {
   	width: 25%;
 }
 nav li a{
-  	display:block;
-  	width: 100%;
-  	text-decoration:none;
-  	text-align: center;
-  	font-family:"游明朝","serif";
-  	color: #ffffff;
-  	font-size: 10px;
+  display:block;
+  width: 100%;
+  text-decoration:none;
+  text-align: center;
+  font-family:"游明朝","serif";
+  color: #ffffff;
+  font-size: 18px;
 }
 
 nav a:hover{
@@ -206,28 +206,11 @@ nav a:hover{
   	opacity: 0.5;
 }
 
-
-h2 {
-    border-bottom: 2px  solid rgba(0,0,0,0.75);
-    margin: 20px 5% 0 ;  /*h2全体の幅調整、下線のため*/
-  }
-h2 p{
-  	font-size: 20px;
-  	font-family:"游明朝","serif";
-	color: rgba(0,0,0,0.75);
-
-  	padding: 6px; /*テキストと下線の間隔*/
-  	border-bottom: 2px solid rgba(0,0,0,0.75);
-}
-h2 div{
-    margin: 1vh 5% 1vh;  /*ハイライトの余白*/
-}
 div.about{
   	margin: 40px 10% 0 ;
 }
-
-div#body-bk div.aboutContents{ 
-  	font-size: 23px;
+div#body-bk div.aboutContents{
+  	font-size: 40px;
   	font-family:"游明朝","serif";
 	color: rgba(0,0,0,0.75);
   	padding: 3vh 0 1vh;
@@ -235,53 +218,52 @@ div#body-bk div.aboutContents{
 }
 div#body-bk p.aboutContents{
   	line-height:30px;
-  	padding: 3vh 2% 3vh;
-}
-h3 {
-    border-bottom: 2px  solid rgba(0,0,0,0.75);
-    margin: 10px 5% 0px;  /*h2全体の幅調整、下線のため*/
-    padding-bottom: 1.5vh;
-  }
-h3 p{
-  	font-size: 20px;
-  	font-family:"游明朝","serif";
-	color: rgba(0,0,0,0.75);
-  	padding: 6px;
-  	margin-bottom: 1.5vh;
-  	border-bottom: 2px solid rgba(0,0,0,0.75);
-}
-
-
-h3
-.container {
-  	margin: 0 5% 0;
-  	display: flex;
-    justify-content: center;
-
-  	display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap:7px;
-
-
-}
-h3
-.item{
-    background: #444;
-    color: #fff;
-    padding: 5px;
-}
-
-h3 a{
-    color:#ffffff;
-    font-size: 6px;
+  	padding: 3vh 5% 3vh;
 }
 
 footer
 .container{
-    padding: 3px;
+    padding: 6px;
     font-family:"游明朝","serif";
     color: #ffffff;
 }
 footer a{
-    color: #3aacad;
+	color: #3aacad;
+}
+
+/* 回転とイメージマップの演習用CSS */
+.images{
+  margin: 2% auto 2% auto;
+  width: 80%; /* class に幅を選択しないと margin の指定ができない*/
+  text-align: center;
+}
+.icon{
+  display: flex;
+  align-items: center;
+  margin: 8% auto 2% auto;
+  width: 80%;
+}
+
+a{
+  text-decoration: none; /*画像にリンクを埋め込む際の余計な下線を消す*/
+}
+#icon{
+  width: 4%;
+  margin-right: 1%;
+  vertical-align: -50%;
+  animation: 15s linear infinite rotation;
+}
+@keyframes  rotation{
+  0%{ transform:rotate(0); }
+  100%{ transform:rotate(360deg); }
+}
+img[alt="package"]{
+  width: 30%;
+  margin-right: 3%;
+}
+img[alt="nue"],img[alt="mokotan"]{
+  width: 22%;
+}
+img[alt="mokotan"]{
+  margin-left: -10%; /*ぬえﾁｬﾝに重ねる*/
 }
