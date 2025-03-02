@@ -1,0 +1,50 @@
+/* ヘッダーの固定 */
+div#header-fixed
+{
+    position: fixed;      /* ヘッダーの固定 */
+    top: 0px;             /* 位置(上0px) */
+    left: 0px;            /* 位置(右0px) */
+    width: 100%;          /* 横幅100%　*/
+    height: 110px;        /* 縦幅140px */
+    z-index:1000;         /* レイヤー高さ1000の位置 */
+}
+
+div#header-bk {
+	background-color:rgba(0,0,0,0.8);     /* 背景色(黒) */
+	padding: 10px 0 0px;       /* 上30px、下0左右０ */
+	height:110px;              /* 黒背景縦の高さ110px */
+	width:100%;                /* 横の幅を100% */
+}
+
+div#header {
+  	height: 100%;/* 縦の表示領域はheader-bkと同じ */
+  	width: 100%;         /* 横の幅970px */
+  	margin: auto;              /* 中央揃え */
+}
+
+nav ul {
+	list-style: none;
+	padding-top : 7px;
+	margin: 0 auto;
+	max-width: 800px;
+}
+nav li {
+	box-sizing: border-box;
+	float: left;
+	width: 25%;
+}
+
+nav li a{
+	display:block;
+	width: 100%;
+	text-decoration:none;
+	text-align: center;
+	font-family:"游明朝","serif";
+	color: #ffffff;
+	font-size: 18px;
+}
+
+nav a:hover{
+	color: #ffffff;
+	opacity: 0.5;
+}
